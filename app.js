@@ -2,7 +2,7 @@ const express = require('express');
 const blogRoutes = require('./routes/blogRoutes')
 const mongoose = require('mongoose');
 // const Blog = require('./models/blog.js');
-const serverless = require('serverless-http');
+// const serverless = require('serverless-http');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
