@@ -45,8 +45,6 @@ app.get('/create', (req, res) => {
     res.render('create',{ head: 'Create' })
 })
 
-app.use(blogRoutes);
-
 app.use((req, res) => {
     // res.status(400).sendFile(path.resolve('../Http/404.html'));
     res.status(400).render('404');
