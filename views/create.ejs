@@ -8,17 +8,11 @@
     nav{
         margin-bottom: 30px !important;
     }
-    .create{
-        width:70%;
-        position: relative;
-        margin: 0 auto;
-        margin-bottom: 10px;
-    }
 </style>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <%- include('./partials/nav.ejs')  %> 
     
-    <div class="create content">
+    <div class="content container">
         <form action="/blogs" method='POST'>
             <div class="mb-3">
                 <label class="form-label">Blog Title</label>
