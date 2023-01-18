@@ -18,7 +18,7 @@
     "serverless-http": "^3.0.2"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "license": "ISO"
